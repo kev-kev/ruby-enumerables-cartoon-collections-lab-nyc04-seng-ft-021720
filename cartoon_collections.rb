@@ -22,7 +22,7 @@ def find_the_cheese(cheese_arr)
   result = nil
   cheese_arr.each{ |item|
     if cheese_types.include?(item)
-      result = true
+      result = item
     end
   }
   result
