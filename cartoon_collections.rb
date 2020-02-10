@@ -1,7 +1,7 @@
 def roll_call_dwarves(names_arr)
   names_w_nums = {}
   names_arr.each_with_index{ |name, i| 
-    names_w_nums[i+1]
+    names_w_nums[i+1] = name
   }
     
   
