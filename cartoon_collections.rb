@@ -3,7 +3,7 @@ def roll_call_dwarves(names_arr)
   names_arr.each_with_index{ |name, i| 
     names_w_nums[i+1] = name
   }
-  
+  p names_w_nums
 end
 
 def summon_captain_planet# code an argument here
