@@ -13,7 +13,7 @@ def summon_captain_planet(call_array)
 end
 
 def long_planeteer_calls(call_array)
-  call_array.inject{ |call| 
+  call_array.inject{ |call, memo| 
 end
 
 def find_the_cheese# code an argument here
