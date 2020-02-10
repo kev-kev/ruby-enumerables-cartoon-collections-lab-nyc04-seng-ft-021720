@@ -23,6 +23,6 @@ def find_the_cheese(cheese_arr)
     if cheese_types.include?(item)
       return item
     end
-    return false
+    return nil
   }
 end
