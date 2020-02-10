@@ -21,7 +21,8 @@ def find_the_cheese(cheese_arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   result = nil
   cheese_arr.each{ |item|
-    cheese_types.include?(item)
+    if cheese_types.include?(item)
+      result = true
   }
-  
+  result
 end
